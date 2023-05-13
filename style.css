@@ -87,28 +87,6 @@ section {
     width: clamp(100px, 382.48px, 500px);
     height: 80%;
 }
-input {
-    width: 100%;
-    height: 90%;
-    border-radius: 7px;
-    border: none;
-    outline: none;
-    background-color: var(--theme-1-screen-background);
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    color: #fff;
-    font-size: 2.5rem;
-    padding: 0 1.5rem;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type=number] {
-  -moz-appearance: textfield;
-}
 .themes {
     display: flex;
     align-items: center;
@@ -169,6 +147,10 @@ input[type=number] {
     height: 100%;
     z-index: 1;
 }
+.themes-button-slider:hover .themes-button-slider-circle {
+    background-color: #F96B5A;
+    transition: 0.2s all;
+}
 .themes-button-slider a:nth-child(2) {
     border-top-left-radius: inherit;
     border-bottom-left-radius: inherit;
@@ -187,6 +169,7 @@ input[type=number] {
     margin-top: 0.15rem;
     margin-left: 0.17rem;
     background-color: var(--theme-1-key-background-2);
+    transition: 0.2s all;
 }
 .input {
     display: flex;
@@ -195,6 +178,21 @@ input[type=number] {
 
     width: 100%;
     height: 20%;
+}
+.input-input {
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: var(--theme-1-screen-background);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0 1.5rem;
+    align-items: center;
 }
 .buttons {
     display: flex;

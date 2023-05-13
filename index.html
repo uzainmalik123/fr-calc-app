@@ -23,37 +23,37 @@
           </div>
           <div class="themes-button-slider">
             <div class="themes-button-slider-circle"></div>
-            <a href="/" onclick="return false"></a>
-            <a href="/" onclick="return false"></a>
-            <a href="/" onclick="return false"></a>
+            <a href="/" onclick="return false" data-status="active"></a>
+            <a href="/" onclick="return false" data-status="notactive"></a>
+            <a href="/" onclick="return false" data-status="notactive"></a>
           </div>
         </div>
       </div>
       <div class="input">
-        <input type="number" dir="rtl">
+        <div class="input-input" id="main-input">0001</div>
       </div>
       <div class="buttons">
         <div class="buttons-small">
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
+          <button value="7">7</button>
+          <button value="8">8</button>
+          <button value="9">9</button>
           <button>DEL</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
+          <button value="4">4</button>
+          <button value="5">5</button>
+          <button value="6">6</button>
           <button>+</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
+          <button value="1">1</button>
+          <button value="2">2</button>
+          <button value="3">3</button>
           <button>-</button>
-          <button>.</button>
-          <button>0</button>
+          <button value=".">.</button>
+          <button value="0">0</button>
           <button>/</button>
           <button>x</button>
         </div>
         <div class="buttons-large">
-          <button>RESET</button>
-          <button>=</button>
+          <button id="reset-btn">RESET</button>
+          <button id="submit-btn">=</button>
         </div>
       </div>
     </section>
