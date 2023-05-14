@@ -193,6 +193,7 @@ section {
     font-size: 2.5rem;
     padding: 0 1.5rem;
     align-items: center;
+    overflow: hidden;
 }
 .buttons {
     display: flex;
